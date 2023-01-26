@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>bhavya fitness</title>
+
+</head>
+
+<link rel="stylesheet" href="css/style.css">
+<style>
+    /* css reset */
+    body {
+        margin: 0px;
+        padding: 0px;
+        background: url('img/a.png.jpg');
+        color: white;
+        font-family: 'Baloo Da 2', cursive;
+    }
+
+    .left {
+        /* border: 2px solid red; */
+        display: inline-block;
+        position: absolute;
+        left: 60px;
+        top: 20px;
+
+
+    }
+
+    .left img {
+        width: 163px;
+        filter: invert(0.8);
+    }
+
+    .left div {
+        text-align: center;
+        line-height: 18px;
+        font-size: 24px;
+    }
+
+    .middle {
+        display: block;
+        width: 53%;
+        margin: 20px auto;
+        /* border: 2px solid blue; */
+
+
+    }
+
+    .right {
+        /* border: 2px solid rgb(8, 233, 83); */
+        display: inline-block;
+        position: absolute;
+        right: 41px;
+        top: 31px;
+    }
+
+    .navbar {
+        display: inline-block;
+    }
+
+    .navbar li {
+        display: inline-block;
+        font-size: 20px;
+    }
+
+    .navbar li a {
+        color: white;
+        text-decoration: none;
+        padding: 34px 23px;
+    }
+
+    .navbar li a:hover,
+    .navbar li a.active {
+        text-decoration: underline;
+        color: rgb(165, 159, 159);
+    }
+
+    .btn {
+        margin: 0px 9px;
+        background-color: black;
+        color: white;
+        padding: 4px 14px;
+        border: 2px solid grey;
+        border-radius: 10px;
+        font-size: 15px;
+        cursor: pointer;
+        font-family: 'Baloo Da 2', cursive;
+    }
+
+    .btn:hover {
+        background-color: rgb(71, 69, 69);
+    }
+
+    .container {
+        /* position: absolute;
+        right: -120px; */
+        border: 2px solid white;
+        margin: 135px 89px;
+        padding: 15px;
+        width: 33%;
+        border-radius: 28px;
+    }
+
+    .form-group input {
+        text-align: center;
+        display: block;
+        width: 408px;
+        padding: 5px;
+        border: 2px solid black;
+        margin: 7px auto;
+        font-size: 15px;
+        border-radius: 8px;
+        font-family: 'Baloo Da 2', cursive;
+
+    }
+
+    .container h1 {
+        text-align: center;
+    }
+
+    .container button {
+        display: block;
+        width: 95%;
+        margin: 20px auto;
+    }
+</style>
+
+<body>
+    <header class="Header">
+        <!-- left box for logo -->
+        <div class="left">
+            <img src="img/c.png.png" alt="">
+            <div>Bhavya Fitness</div>
+        </div>
+        <!-- mid box for nav -->
+        <div class="middle">
+            <ul class="navbar">
+                <li><a href="#" class="active">Home</a></li>
+                <li><a href="#">About Us</a></li>
+                <li><a href="#">Fitness Calculator</a></li>
+                <li><a href="#">Contact Us</a></li>
+            </ul>
+
+        </div>
+        <!-- right box for buttons -->
+        <div class="right">
+            <button class="btn">Call Us Now</button>
+            <button class="btn">Email Us</button>
+        </div>
+
+    </header>
+    <div class="container">
+        <h1>
+            Join the best gym of Agra now
+        </h1>
+        <form action="noaction.php">
+            <div class="form-group">
+                <input type="" name="" placeholder="Enter Your Name">
+            </div>
+            <div class="form-group">
+                <input type="" name="" placeholder="Enter Your Age">
+            </div>
+            <div class="form-group">
+                <input type="" name="" placeholder="Enter Your Gender">
+            </div>
+            <div class="form-group">
+                <input type="" name="" placeholder="Enter Your Locality">
+            </div>
+            <button class="btn">Submit</button>
+        </form>
+
+    </div>
+</body>
+
+</html>
